@@ -65,7 +65,7 @@ body{
 }
 .estatisticas{
     display: flex;
-width: 370px;
+width: 300px;
 height: 308px;
 flex-direction: column;
 justify-content: center;
@@ -107,7 +107,6 @@ background: #4747D9;
     display: flex;
     align-items: center;
     margin-left: 50px;
-    flex-wrap: wrap;
 }
 .meuProjeto .titulo{
     color: #000;
@@ -117,16 +116,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-.projeto{
-    display: flex;
-    width: 401px;
-    height: 125px;
-    padding: 15px 21px;
-    align-items: center;
-    gap: 16px;
-    border-radius: 8px;
-    border: 2px solid #4747D9;
-}
+
 .projetosAndamento{
     display: flex;
 width: 859px;
@@ -148,7 +138,7 @@ margin-left: 70px;
 }
 .projeto{
     display: flex;
-    width: 401px;
+    width: 400px;
     height: 125px;
     padding: 15px 21px;
     flex-direction: column;
@@ -176,6 +166,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
 /* @media screen and (min-width: ) {
     
 } */
