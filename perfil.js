@@ -91,6 +91,8 @@ function aplicarFoto(){
     localStorage.setItem('nomeData', nomeEditado)
     
 }
+testeprojeto = JSON.parse(localStorage.getItem('projeto1'))
+console.log(testeprojeto)
 
 // Chamar a função de verificação quando a página é carregada
 verificarImagemLocalStorage();
